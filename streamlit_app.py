@@ -6,7 +6,7 @@ from io import BytesIO
 from tensorflow import keras
 from tqdm import tqdm
 
-MODEL_URL = "replace_with_huggingface_url"
+MODEL_URL = "https://huggingface.co/janggolll/catdog/resolve/main/model.h5"
 MODEL_PATH = "model.h5"
 model_downloaded = False
 
